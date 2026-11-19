@@ -6,7 +6,7 @@
 - Why: requeridos por deploy y smoke
 - Failing: none
 - Commands: pytest; smoke
-- Next: Wait for review of SHA 7f4c313
+- Next: Integrated in main: db6ccf6871c7de26f7177ea47a1447cd19af4c0a (recorded by dylan)
 
 ## History
 - 1795095983 | CLAIMED | claude-dylan | claim; next: Crear pyproject.toml y app/tests/test_turnos.py con 4 tests + stub, uak red
@@ -15,3 +15,4 @@
 - 1795097481 | CLAIMED | claude-dylan | heartbeat; lease until 1795100181
 - 1795097504 | REVIEW | claude-dylan | done; PR https://github.com/DylanMCDS/turno-cafeteria-3/pull/1; evidence: uv run pytest -q app/tests/test_turnos.py exit 0 (4 passed); smoke PRODUCT_PASS exit 0; criteria met · red at fdaab77: >       assert r.status_code == 201; reviewer: -
 - 1795097517 | REVIEW | claude-dylan | checkpoint; next: Wait for review of SHA 7f4c313
+- 1795098376 | INTEGRATED | dylan | integrate; recorded by dylan; PR https://github.com/DylanMCDS/turno-cafeteria-3/pull/1; merged db6ccf6871c7de26f7177ea47a1447cd19af4c0a; proof ancestry
