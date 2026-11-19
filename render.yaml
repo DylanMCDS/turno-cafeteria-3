@@ -1,0 +1,7 @@
+# Built by uak deploy · Render Blueprint: dashboard → New → Blueprint → this repo; fill the sync: false values.
+services:
+  - type: web
+    name: hack-001
+    runtime: docker
+    plan: starter   # a free instance sleeps after 15 min idle: the first request of a live demo then waits ~1 min
+    autoDeploy: true   # every push to main redeploys
