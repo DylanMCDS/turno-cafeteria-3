@@ -10,3 +10,4 @@
 
 ## History
 - 1795095983 | CLAIMED | claude-dylan | claim; next: Crear pyproject.toml y app/tests/test_turnos.py con 4 tests + stub, uak red
+- 1795096427 | CLAIMED | claude-dylan | heartbeat; lease until 1795099127
