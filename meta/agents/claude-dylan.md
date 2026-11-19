@@ -1,0 +1,11 @@
+# claude-dylan
+Agent: claude-dylan
+Started: 1795095983
+Events: 1
+Events-Since-Checkpoint: 1
+Checkpoints: 0
+Sessions: 1
+Last-Checkpoint: 0
+Human: dylan
+Last-Session: claude-dylan-1795095983
+Updated: 1795095983
