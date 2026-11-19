@@ -9,16 +9,16 @@ Priority: P0
 Paths: pyproject.toml, uv.lock, app/, web/package.json, web/package-lock.json, web/vite.config.ts, web/tsconfig.json, web/index.html, web/src/main.tsx, web/src/fixtures/, Dockerfile, render.yaml, .gitignore
 Depends: None
 Verify: `uv run pytest -q app/tests/test_turnos.py`
-Lease-Until: 1795099127
-Updated: 1795096427
+Lease-Until: 1795099378
+Updated: 1795096678
 Task-Base: fdaab77c07a7ef63d3c1902d54b3b58a5b706548
-Next: Crear pyproject.toml y app/tests/test_turnos.py con 4 tests + stub, uak red
+Next: uak done HACK-001 (ship)
 PR: -
 Evidence: -
-Events: 2
-Checkpoints: 0
+Events: 3
+Checkpoints: 1
 Sessions: 1
-Last-Checkpoint: 0
+Last-Checkpoint: 1795096678
 Progress: 0 commit(s) since the claim · last: fdaab77 plan: backlog v1 (11 minutes ago) · 0 uncommitted tracked file(s) · at 1795096427
 Progress-Head: fdaab77/4294967295
 Progress-Changed: 1795096427
